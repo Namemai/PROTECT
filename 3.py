@@ -3532,7 +3532,7 @@ def bot(op):
                                    for p in range (140, len(nama)-1):
                                        nm8 += [nama[p]]
                                    mentionMembers(msg.to, nm8)
-                        elif cmd == "ชื่อบอท:
+                        elif cmd == "ชื่อบอท":
                           if wait["selfbot"] == True:
                             if msg._from in owner or msg._from in admin or msg._from in staff:
                                 ma = ""
