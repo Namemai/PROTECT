@@ -496,7 +496,7 @@ def backupProfile():
 def mentionMembers(to, mid):
     try:
         arrData = ""
-        textx = "✏DAFTAR JONES「{}」\n\n╔━━━━[ SILENT KILLER ]━━━\n╠❂➣✏1. ".format(str(len(mid)))
+        textx = "✏DAFTAR JONES「{}」\n\n╔━━━━[  ]━━━\n╠❂➣✏1. ".format(str(len(mid)))
         arr = []
         no = 1
         num = 2
@@ -665,7 +665,7 @@ def help():
     num = (num+1)
     helpMessage += "│╠❂➣ %i. " % num + key + "sᴘ\n"
     num = (num+1)
-    helpMessage += "│╠❂➣ %i. " % num + key + "ᴋᴇᴘᴏ @\n"
+    helpMessage += "│╠❂➣ %i. " % num + key + "vk / ᴋ @\n"
     num = (num+1)
     helpMessage += "│╠❂➣ %i. " % num + key + "ᴍʏʙᴏᴛ\n"
     num = (num+1)
@@ -675,13 +675,13 @@ def help():
     num = (num+1)
     helpMessage += "│╠❂➣ %i. " % num + key + "ออก\n"
     num = (num+1)
-    helpMessage += "│╠❂➣ %i. " % num + key + "ᴜᴘʙᴏᴛ\n"
+    helpMessage += "│╠❂➣ %i. " % num + key + "=เชค /ชื่อบอท\n"
     num = (num+1)
     helpMessage += "│╠❂➣ %i. " % num + key + "ɢᴇᴛᴍɪᴅ @\n"
     num = (num+1)
     helpMessage += "│╠❂➣ %i. " % num + key + "ᴀʙᴏᴜᴛ\n"
     num = (num+1)
-    helpMessage += "│╠❂➣ %i. " % num + key + "ᴛɪᴍᴇ\n"
+    helpMessage += "│╠❂➣ %i. " % num + key + "เชิญบอท\n"
     num = (num+1)
     helpMessage += "│╠❂➣ %i. " % num + key + "ᴄʀᴇᴀᴛᴏʀ\n"
     num = (num+1)
@@ -689,9 +689,9 @@ def help():
     num = (num+1)
     helpMessage += "│╠❂➣ %i. " % num + key + "ᴏᴘᴇɴ\n"
     num = (num+1)    
-    helpMessage += "│╠❂➣ %i. " % num + key + "ᴏᴜʀʟ\n"
+    helpMessage += "│╠❂➣ %i. " % num + key + "เปิดลิ้ง\n"
     num = (num+1)
-    helpMessage += "│╠❂➣ %i ." % num + key + "ᴄᴜʀʟ\n"
+    helpMessage += "│╠❂➣ %i ." % num + key + "ปิดลิ้ง\n"
     num = (num+1)
     helpMessage += "│╠❂➣ %i. " % num + key + "ɢʀᴜᴘɪɴғᴏ ɴᴏ\n"
     num = (num+1)
