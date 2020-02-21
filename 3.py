@@ -675,7 +675,7 @@ def help():
     num = (num+1)
     helpMessage += "│╠❂➣ %i. " % num + key + "ออก\n"
     num = (num+1)
-    helpMessage += "│╠❂➣ %i. " % num + key + "=เชค /ชื่อบอท\n"
+    helpMessage += "│╠❂➣ %i. " % num + key + "=b /ชื่อบอท\n"
     num = (num+1)
     helpMessage += "│╠❂➣ %i. " % num + key + "ɢᴇᴛᴍɪᴅ @\n"
     num = (num+1)
@@ -3611,7 +3611,7 @@ def bot(op):
                                     end = '\n'
                                     mg += str(g) + ". " +cl.getGroup(group).name + "\n"
                                 
-                        elif cmd == "b":
+                        elif cmd == "บอท":
                           if wait["selfbot"] == True:
                             if msg._from in owner or msg._from in admin or msg._from in staff:
                                 k1.sendMessage(msg.to,responsename1)
@@ -3634,7 +3634,7 @@ def bot(op):
                                k3.acceptGroupInvitationByTicket(to,format(str(ticket)))
                                time.sleep(0.01)                            
                         
-                        elif cmd == "เชิญบอท":
+                        elif cmd == "ดึงบอท":
                           if wait["selfbot"] == True:
                             if msg._from in creator or msg._from in owner or msg._from in admin:
                                 try:
@@ -3646,7 +3646,7 @@ def bot(op):
                                 except:
                                     pass       
                                
-                        elif cmd == "เชคบอท":
+                        elif cmd == "b":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                k1.sendMessage(msg.to, "อยู่ค่ะเจ้านาย ⋮➲➤")
