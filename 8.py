@@ -1339,10 +1339,10 @@ def bot(op):
                     bl["blacklist"][op.param2] = True
                     try:
                         if op.param3 not in bl["blacklist"]:
-                                k1.kickoutFromGroup(op.param1,[op.param2])
-                     except:
-                         try:
-                             if op.param3 not in bl["blacklist"]:
+                        	k1.kickoutFromGroup(op.param1,[op.param2])
+                    except: 
+                        try:
+                            if op.param3 not in bl["blacklist"]:
                                 k2.kickoutFromGroup(op.param1,[op.param2])
                         except:
                             try:
@@ -1365,7 +1365,19 @@ def bot(op):
                                                 if op.param3 not in bl["blacklist"]:
                                                     cl.kickoutFromGroup(op.param1,[op.param2])
                                             except:
-                                                pass
+                                                try:
+                                                    if op.param3 not in bl["blacklist"]:
+                                                        k8.kickoutFromGroup(op.param1,[op.param2])
+                                                except:
+                                                    try:
+                                                        if op.param3 not in bl["blacklist"]:
+                                                            k9.kickoutFromGroup(op.param1,[op.param2])
+                                                    except:
+                                                        try:
+                                                            if op.param3 not in bl["blacklist"]:
+                                                                k10.kickoutFromGroup(op.param1,[op.param2])
+                                                        except:
+                                                            pass
                 return
                                         
         if op.type == 17:
