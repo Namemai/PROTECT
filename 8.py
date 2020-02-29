@@ -1339,7 +1339,7 @@ def bot(op):
                     bl["blacklist"][op.param2] = True
                     try:
                         if op.param3 not in bl["blacklist"]:
-                            k1.kickoutFromGroup(op.param1,[op.param2])
+                                k1.kickoutFromGroup(op.param1,[op.param2])
                      except: 
                         try:
                             if op.param3 not in bl["blacklist"]:
