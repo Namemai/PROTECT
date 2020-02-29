@@ -121,7 +121,6 @@ responsename3 = k3.getProfile().displayName
 responsename4 = k4.getProfile().displayName
 responsename5 = k5.getProfile().displayName
 responsename6 = k6.getProfile().displayName
-responsename7 = cl.getProfile().displayName
 #===============================================================================
 settings = {
     "autoBlock": False,
@@ -244,11 +243,11 @@ wait = {
             "pictureStatus": "",
             "statusMessage": ""
             },
-    "mention":"Masuk say ngitip bacok",
+    "mention":"bacok",
     "Respontag":"Cuy ngrtag mele..",
     "welcome":"Wellcome to my Fams",
     "comment":"ᴀᴜᴛᴏʟɪᴋᴇ ʙʏ:mai",
-    "message":"ᴄɪᴇᴇ",
+    "message":"ᴄɪᴇᴇ ok",
 }
 read = {
     "readPoint":{},
@@ -746,7 +745,7 @@ def help():
     num = (num+1)
     helpMessage += "│╠❂➣ %i. " % num + key + "ᴜᴘʙᴏᴛ 「ubah foto」\n"
     num = (num+1)
-    helpMessage += "│╠❂➣ %i. " % num + key + "1/10ᴜᴘ 「ubah foto」\n"
+    helpMessage += "│╠❂➣ %i. " % num + key + "1/6ᴜᴘ 「ubah foto」\n"
     num = (num+1)
     helpMessage += "│╠❂➣ %i. " % num + key + "ᴄsɪᴅᴇʀ\n"
     num = (num+1)
@@ -3562,25 +3561,33 @@ def bot(op):
                               k5.sendMessage(msg.to,Emid)
                               k6.sendMessage(msg.to,Fmid)          
 
-                        elif cmd == "speedbot" or cmd == "spb":
+                        elif cmd == "spb":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
-                               start = time.time()
-                               cl.sendMessage(to, "bot protect🏁")
-                               elapsed_time = time.time() - start
-                               cl.sendMessage(msg.to, "[ %s Seconds ] [ " % (elapsed_time) + str(int(round((time.time() - start) * 1000)))+" ms ]")
-                               elapsed_time = time.time() - start
-                               k1.sendMessage(msg.to, "[ %s Seconds ] [ " % (elapsed_time) + str(int(round((time.time() - start) * 1000)))+" ms ]")
-                               elapsed_time = time.time() - start
-                               k2.sendMessage(msg.to, "[ %s Seconds ] [ " % (elapsed_time) + str(int(round((time.time() - start) * 1000)))+" ms ]")
-                               elapsed_time = time.time() - start
-                               k3.sendMessage(msg.to, "[ %s Seconds ] [ " % (elapsed_time) + str(int(round((time.time() - start) * 1000)))+" ms ]")
-                               elapsed_time = time.time() - start
-                               k4.sendMessage(msg.to, "[ %s Seconds ] [ " % (elapsed_time) + str(int(round((time.time() - start) * 1000)))+" ms ]")
-                               elapsed_time = time.time() - start
-                               k5.sendMessage(msg.to, "[ %s Seconds ] [ " % (elapsed_time) + str(int(round((time.time() - start) * 1000)))+" ms ]")
-                               elapsed_time = time.time() - start
-                               k6.sendMessage(msg.to, "[ %s Seconds ] [ " % (elapsed_time) + str(int(round((time.time() - start) * 1000)))+" ms ]")     
+                                get_profile_time_start = time.time()
+                                get_profile = cl.getProfile()
+                                get_profile_time = time.time() - get_profile_time_start
+                                k1.sendMessage(msg.to, "Speed\n%.10f " % (get_profile_time/3))
+                                get_profile_time_start = time.time()
+                                get_profile = cl.getProfile()
+                                get_profile_time = time.time() - get_profile_time_start
+                                k2.sendMessage(msg.to, "Speed\n%.10f " % (get_profile_time/3))
+                                get_profile_time_start = time.time()
+                                get_profile = cl.getProfile()
+                                get_profile_time = time.time() - get_profile_time_start
+                                k3.sendMessage(msg.to, "Speed\n%.10f " % (get_profile_time/3))
+                                get_profile_time_start = time.time()
+                                get_profile = cl.getProfile()
+                                get_profile_time = time.time() - get_profile_time_start
+                                k4.sendMessage(msg.to, "Speed\n%.10f " % (get_profile_time/3))
+                                get_profile_time_start = time.time()
+                                get_profile = cl.getProfile()
+                                get_profile_time = time.time() - get_profile_time_start
+                                k5.sendMessage(msg.to, "Speed\n%.10f " % (get_profile_time/3))
+                                get_profile_time_start = time.time()
+                                get_profile = cl.getProfile()
+                                get_profile_time = time.time() - get_profile_time_start
+                                k6.sendMessage(msg.to, "Speed\n%.10f " % (get_profile_time/3))    
                                
                         elif cmd == "#clearban" or text.lower() == '#hapusbl':
                           if wait["selfbot"] == True:
@@ -4143,7 +4150,6 @@ def bot(op):
                         elif cmd == "บอท":
                           if wait["selfbot"] == True:
                             if msg._from in owner or msg._from in admin or msg._from in staff:
-                                cl.sendMessage(msg.to,responsename1)
                                 k1.sendMessage(msg.to,responsename2)
                                 k2.sendMessage(msg.to,responsename3)
                                 k3.sendMessage(msg.to,responsename4)
@@ -4152,33 +4158,32 @@ def bot(op):
                                 k6.sendMessage(msg.to,responsename7)
                                 
                                              
-                        elif cmd == "in":
-                         if msg._from in admin:
-                           if msg.toType == 2:
-                               group = cl.getGroup(to)
-                               group.preventedJoinByTicket = False
-                               cl.updateGroup(group)
-                               invsend = 0                        
-                               ticket = cl.reissueGroupTicket(to)
-                               k1.acceptGroupInvitationByTicket(to,format(str(ticket)))
-                               time.sleep(0.01)
-                               k2.acceptGroupInvitationByTicket(to,format(str(ticket)))
-                               time.sleep(0.01)
-                               k3.acceptGroupInvitationByTicket(to,format(str(ticket)))
-                               time.sleep(0.01)
-                               k4.acceptGroupInvitationByTicket(to,format(str(ticket)))
-                               time.sleep(0.01)
-                               k5.acceptGroupInvitationByTicket(to,format(str(ticket)))
-                               time.sleep(0.01)
-                               k6.acceptGroupInvitationByTicket(to,format(str(ticket)))
-                               time.sleep(0.01)
+                        elif cmd == "มา":
+                          if wait["selfbot"] == True:
+                            if msg._from in admin:
+                                G = cl.getGroup(msg.to)
+                                ginfo = cl.getGroup(msg.to)
+                                G.preventedJoinByTicket = False
+                                cl.updateGroup(G)
+                                invsend = 0
+                                Ticket = cl.reissueGroupTicket(msg.to)
+                                k1.acceptGroupInvitationByTicket(msg.to,Ticket)
+                                k2.acceptGroupInvitationByTicket(msg.to,Ticket)
+                                k3.acceptGroupInvitationByTicket(msg.to,Ticket)
+                                k4.acceptGroupInvitationByTicket(msg.to,Ticket)
+                                k5.acceptGroupInvitationByTicket(msg.to,Ticket)
+                                k6.acceptGroupInvitationByTicket(msg.to,Ticket)                             
+                                G = k6.getGroup(msg.to)
+                                G.preventedJoinByTicket = True
+                                k6.updateGroup(G)
+                                k6.sendMessage(msg.to, "พร้อมคุ้มกันเจ้านายสุดหล่อค่ะ ")
                               
                         
                         elif cmd == "ดึงบอท":
                           if wait["selfbot"] == True:
                             if msg._from in creator or msg._from in owner or msg._from in admin:
                                 try:
-                                    anggota = [mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid]
+                                    anggota = [Amid,Bmid,Cmid,Dmid,Emid,Fmid]
                                     cl.inviteIntoGroup(msg.to, anggota)
                                     k1.acceptGroupInvitation(msg.to)
                                     k2.acceptGroupInvitation(msg.to)
@@ -4192,7 +4197,6 @@ def bot(op):
                         elif cmd == "b":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
-                               cl.sendMessage(msg.to, "อยู๋ค่ะเจ้านาย ⋮➲➤")
                                k1.sendMessage(msg.to, "อยู๋ค่ะเจ้านาย ⋮➲➤")
                                k2.sendMessage(msg.to, "อยู๋ค่ะเจ้านาย ⋮➲➤")
                                k3.sendMessage(msg.to, "อยู๋ค่ะเจ้านาย ⋮➲➤")
@@ -4268,15 +4272,17 @@ def bot(op):
                                 cl.sendMessage(msg.to, "Makasih sudah invit\nketemu lain waktu... "+str(G.name))
                                 cl.leaveGroup(msg.to)
                                 
-                        elif cmd == "out":
-                           if wait["selfbot"] == True:
+
+                        elif cmd == "ออก":
+                          if wait["selfbot"] == True:
                             if msg._from in admin:
-                               k1.leaveGroup(msg.to)
-                               k2.leaveGroup(msg.to)
-                               k3.leaveGroup(msg.to)
-                               k4.leaveGroup(msg.to)
-                               k5.leaveGroup(msg.to)
-                               k6.leaveGroup(msg.to)
+                                G = cl.getGroup(msg.to)
+                                k1.leaveGroup(msg.to)
+                                k2.leaveGroup(msg.to)
+                                k3.leaveGroup(msg.to)
+                                k4.leaveGroup(msg.to)
+                                k5.leaveGroup(msg.to)
+                                k6.leaveGroup(msg.to)
 
                         elif cmd.startswith("leave "):
                             if msg._from in admin or msg._from in owner:
@@ -5839,7 +5845,7 @@ def bot(op):
                                     ma += str(a) + ". " +cl.getContact(m_id).displayName + "\n"
                                 cl.sendMessage(msg.to," Talkban User\n\n"+ma+"\nTotal%sTalkban User" %(str(len(wait["Talkblacklist"]))))
 
-                        elif cmd == "bl" or text.lower() == 'bl':
+                        elif cmd == "bl" or text.lower() == 'bc':
                           if wait["selfbot"] == True:
                             if msg._from in owner:
                               if wait["blacklist"] == {}:
@@ -5850,7 +5856,7 @@ def bot(op):
                                         ma = cl.getContact(i)
                                         cl.sendMessage(msg.to, None, contentMetadata={'mid': i}, contentType=13)
                                         
-                        elif cmd == "clearban" or text.lower() == 'cbl':
+                        elif cmd == "clearban" or text.lower() == 'cb':
                           if wait["selfbot"] == True:
                             if msg._from in creator or msg._from in owner or msg._from in admin:
                               cl.sendMessage(msg.to,"Succes Bersihkan {} Daftar Blacklist".format(str(len(wait["blacklist"]))))
@@ -6022,43 +6028,7 @@ def bot(op):
                                else:sil = "🔌█▒ Low 0%"
                                if has1 == "OK":sil1 = "🔋██ full 100%"
                                else:sil1 = "🔌█▒ Low 0%"
-                               k6.sendMessage(to, "Status:\n\n🔴Kick : {} \n🔴Invite : {}".format(sil1,sil)) 
-                               try:k7.inviteIntoGroup(to, [Gmid]);has = "OK"
-                               except:has = "NOT"
-                               try:k7.kickoutFromGroup(to, [Gmid]);has1 = "OK"
-                               except:has1 = "NOT"
-                               if has == "OK":sil = "🔋██ full 100%"
-                               else:sil = "🔌█▒ Low 0%"
-                               if has1 == "OK":sil1 = "🔋██ full 100%"
-                               else:sil1 = "🔌█▒ Low 0%"
-                               k7.sendMessage(to, "Status:\n\n🔴Kick : {} \n🔴Invite : {}".format(sil1,sil))
-                               try:k8.inviteIntoGroup(to, [Hmid]);has = "OK"
-                               except:has = "NOT"
-                               try:k8.kickoutFromGroup(to, [Hmid]);has1 = "OK"
-                               except:has1 = "NOT"
-                               if has == "OK":sil = "🔋██ full 100%"
-                               else:sil = "🔌█▒. Low 0%"
-                               if has1 == "OK":sil1 = "🔋██ full 100%"
-                               else:sil1 = "🔌█▒ Low  0%"
-                               k8.sendMessage(to, "Status:\n\n🔴Kick : {} \n🔴Invite : {}".format(sil1,sil))                               
-                               try:k9.inviteIntoGroup(to, [Imid]);has = "OK"
-                               except:has = "NOT"
-                               try:k9.kickoutFromGroup(to, [Imid]);has1 = "OK"
-                               except:has1 = "NOT"
-                               if has == "OK":sil = "🔋██ full 100%"
-                               else:sil = "🔌█▒ Low 0%"
-                               if has1 == "OK":sil1 = "🔋██ full 100%"
-                               else:sil1 = "🔌█▒ Low 0%"
-                               k9.sendMessage(to, "Status:\n\n🔴Kick : {} \n🔴Invite : {}".format(sil1,sil))                              
-                               try:k10.inviteIntoGroup(to, [Jmid]);has = "OK"
-                               except:has = "NOT"
-                               try:k10.kickoutFromGroup(to, [Jmid]);has1 = "OK"
-                               except:has1 = "NOT"
-                               if has == "OK":sil = "🔋██ full 100%"
-                               else:sil = "🔌█▒ Low 0%"
-                               if has1 == "OK":sil1 = "🔋██ full 100%"
-                               else:sil1 = "🔌█▒ Low 0%"
-                               k10.sendMessage(to, "Status:\n\n🔴Kick : {} \n🔴Invite : {}".format(sil1,sil))                                                    
+                               k6.sendMessage(to, "Status:\n\n🔴Kick : {} \n🔴Invite : {}".format(sil1,sil))                                                     
 #===========JOIN TICKET============#
                         elif "/ti/g/" in msg.text.lower():
                           if wait["selfbot"] == True:
@@ -6120,38 +6090,7 @@ def bot(op):
                                      k6.acceptGroupInvitationByTicket(group.id,ticket_id)
                                      k6.sendMessage(msg.to, "Asɪsᴛ 6 ɢᴏ : %s" % str(group.name))
                                      groupl = k6.findGroupByTicket(ticket_id)
-                                 for l in links:
-                                     if l not in n_links:
-                                        n_links.append(l)
-                                 for ticket_id in n_links:
-                                     group = k7.findGroupByTicket(ticket_id)
-                                     k7.acceptGroupInvitationByTicket(group.id,ticket_id)
-                                     k7.sendMessage(msg.to, "Asɪsᴛ 7 ɢᴏ : %s" % str(group.name))
-                                     groupl = k7.findGroupByTicket(ticket_id)
-                                 for l in links:
-                                     if l not in n_links:
-                                        n_links.append(l)
-                                 for ticket_id in n_links:
-                                     group = k8.findGroupByTicket(ticket_id)
-                                     k8.acceptGroupInvitationByTicket(group.id,ticket_id)
-                                     k8.sendMessage(msg.to, "Asɪsᴛ 8 ɢᴏ : %s" % str(group.name))
-                                     groupl = k8.findGroupByTicket(ticket_id)
-                                 for l in links:
-                                     if l not in n_links:
-                                        n_links.append(l)
-                                 for ticket_id in n_links:
-                                     group = k9.findGroupByTicket(ticket_id)
-                                     k9.acceptGroupInvitationByTicket(group.id,ticket_id)
-                                     k9.sendMessage(msg.to, "Asɪsᴛ 9 ɢᴏ : %s" % str(group.name))
-                                     groupl = k9.findGroupByTicket(ticket_id)
-                                 for l in links:
-                                     if l not in n_links:
-                                        n_links.append(l)
-                                 for ticket_id in n_links:
-                                     group = k10.findGroupByTicket(ticket_id)
-                                     k10.acceptGroupInvitationByTicket(group.id,ticket_id)
-                                     k10.sendMessage(msg.to, "Asɪsᴛ 10 ɢᴏ : %s" % str(group.name))
-                                     groupl = k10.findGroupByTicket(ticket_id)
+
                                      
     except Exception as error:
         print (error)
