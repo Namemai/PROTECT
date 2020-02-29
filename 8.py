@@ -1522,7 +1522,7 @@ def bot(op):
             	            g1.inviteIntoGroup(op.param1,[op.param3])
             	        except:
             	            g1.sendMessage(op.param1,"Bl succes")
-            	                g1.leaveGroup(op.param1)
+            	            g1.leaveGroup(op.param1)
             	        g1.leaveGroup(op.param1)
             	        X = cl.getGroup(op.param1)
             	        X.preventedJoinByTicket = True
