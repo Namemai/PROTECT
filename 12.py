@@ -63,17 +63,17 @@ print("""\033["""+str(randint(0,1))+""";"""+str(randint(31,36))+"""m[ %s Kicker2
 #==========================[[PAKE TOKEN CHROMEOS 2.1.5]]=========================
 print("""\033["""+str(randint(0,1))+""";"""+str(randint(31,36))+"""m
 
-	    Welcome To Self Bot Protect  By Dhenza15
+	    Welcome To Self Bot Protect  By mai
 
             
 Login Time %s \033[0m\n\n"""%(Bot_startTime))
 #==============================================================================
 oepoll = OEPoll(cl)
 call = cl
-creator = ["ub1c5a71f27b863896e9d44bea857d35b","ufdc20b3a00b5e8f31e4f91017eb361b0"]
-owner = ["ub1c5a71f27b863896e9d44bea857d35b","ufdc20b3a00b5e8f31e4f91017eb361b0"]
-admin = ["ub1c5a71f27b863896e9d44bea857d35b","ufdc20b3a00b5e8f31e4f91017eb361b0"]
-staff = ["ufdc20b3a00b5e8f31e4f91017eb361b0"]
+creator = ["uc66e45201d1612eb4ce7b3a86bac4685"]
+owner = ["uc66e45201d1612eb4ce7b3a86bac4685"]
+admin = ["uc66e45201d1612eb4ce7b3a86bac4685"]
+staff = ["uc66e45201d1612eb4ce7b3a86bac4685"]
 #==============================================================================
 lineProfile = cl.getProfile()
 mid = cl.getProfile().mid
@@ -270,8 +270,8 @@ wait = {
     "mention":"Masuk say ngitip bacok",
     "Respontag":"Cuy ngrtag mele..",
     "welcome":"Wellcome to my Fams",
-    "comment":"ᴀᴜᴛᴏʟɪᴋᴇ ʙʏ: \n\n\n\n™S̶̭̗̞̙̿͑̽̆̃̒į̷̙̝̦̤̜̗́̉ͅl̸̛͓͋͋͆̍ę̶͇̮̦̣̖̙̘̪̉n̸͍̦͉̖̟͚̗̣̍̓̽̅̚ť̴̙͋ ̷̨̳̠͎̮̘͇̀̅̀͒̈́͊̕͝T̸̡̯̗̩̺͉̑́͛̌̒ͅé̶̡̱̯̮̯̊̏́̀̃͜a̴̭͓̫͚̐́̂̍̂̊̋̚m̸̨̨̹͎͍̳̥͆̓͗̿͐͗͑̿̓͠ ̴̠͐̂B̷̛̳͎̫̻̫̯̣͓̲͋̀͋̋͊̈͗͑o̵̲̾̈́͒͗t̴̢͍̫̰̠̞͖͍̬̑̊̽͒́̈́͗ͅ\n\n\n\nᴄʀᴇᴀᴛᴏʀ:\nhttp://line.me/ti/p/~teambotprotect\nɢɪᴛhᴜʙ:\ngithub.com/dhenza1415\nchanel ʏᴏᴜᴛᴜʙᴇ:\nhttps://youtu.be/CRqXKcTl6IY\n\nnew ᴄʜᴀɴᴇʟ:\nhttps://youtu.be/6UGH_4gG9qk",
-    "message":"ᴄɪᴇᴇ ᴋᴇᴛᴀʜᴜᴀɴ ɴɢᴇ ᴀᴅᴅ\nᴍᴀᴋᴀsɪʜ ʏᴀ sᴜᴅᴀʜ ᴀᴅᴅ..\n\n\n\n\n™S̶̭̗̞̙̿͑̽̆̃̒į̷̙̝̦̤̜̗́̉ͅl̸̛͓͋͋͆̍ę̶͇̮̦̣̖̙̘̪̉n̸͍̦͉̖̟͚̗̣̍̓̽̅̚ť̴̙͋ ̷̨̳̠͎̮̘͇̀̅̀͒̈́͊̕͝T̸̡̯̗̩̺͉̑́͛̌̒ͅé̶̡̱̯̮̯̊̏́̀̃͜a̴̭͓̫͚̐́̂̍̂̊̋̚m̸̨̨̹͎͍̳̥͆̓͗̿͐͗͑̿̓͠ ̴̠͐̂B̷̛̳͎̫̻̫̯̣͓̲͋̀͋̋͊̈͗͑o̵̲̾̈́͒͗t̴̢͍̫̰̠̞͖͍̬̑̊̽͒́̈́͗ͅ\n\n\n\nᴄʀᴇᴀᴛᴏʀ:\nhttp://line.me/ti/p/~teambotprotect\nɢɪᴛhᴜʙ:\ngithub.com/dhenza1415\nchanel ʏᴏᴜᴛᴜʙᴇ:\nhttps://youtu.be/CRqXKcTl6IY\n\nnew ᴄʜᴀɴᴇʟ:\nhttps://youtu.be/6UGH_4gG9qk",
+    "comment":"ᴀᴜᴛᴏʟɪᴋᴇ ʙʏ:mai",
+    "message":"ᴄɪᴇᴇ",
 }
 read = {
     "readPoint":{},
@@ -701,7 +701,7 @@ def help():
     key = key.title()
     helpMessage = "╭━━━━━━━━━━━━━━━\n"
     helpMessage += "│┃ " + "╭──⍟ᴛᴇᴀᴍ ʙᴏᴛ ᴘʀᴏᴛᴇᴄᴛ⍟─\n"
-    helpMessage += "│┃" + " ├───༼ᴍᴇɴᴜ ʙᴏᴛ sɪʟᴇɴᴛ༽────────────────\n"
+    helpMessage += "│┃" + " ├───ᴍᴇɴᴜ ʙᴏᴛ────────────────\n"
     helpMessage += "│┃" + " ├──────────────\n"
     helpMessage += "│╠❂➣ %i. " % num + key + "ᴍᴇ\n"
     num = (num+1)
@@ -713,9 +713,9 @@ def help():
     num = (num+1)
     helpMessage += "│╠❂➣ %i. " % num + key + "ɴᴀᴍᴇ\n"
     num = (num+1)
-    helpMessage += "│╠❂➣ %i. " % num + key + "ᴍᴀsᴜᴋ\n"
+    helpMessage += "│╠❂➣ %i. " % num + key + "in\n"
     num = (num+1)
-    helpMessage += "│╠❂➣ %i. " % num + key + "ᴘᴜʟᴀɴɢ\n"
+    helpMessage += "│╠❂➣ %i. " % num + key + "out\n"
     num = (num+1)
     helpMessage += "│╠❂➣ %i. " % num + key + "ᴜᴘʙᴏᴛ\n"
     num = (num+1)
@@ -745,7 +745,7 @@ def help():
     num = (num+1)
     helpMessage += "│╠❂➣ %i. " % num + key + "sɪᴅᴇʀ ᴏɴ[ᴏғғ]\n"
     num = (num+1)
-    helpMessage += "│╠❂➣ %i. " % num + key + "ᴛᴇs\n"
+    helpMessage += "│╠❂➣ %i. " % num + key + "แทค\n"
     num = (num+1)
     helpMessage += "│╠❂➣ %i. " % num + key + "ᴜᴘɢʀᴜᴘ\n"
     num = (num+1)
@@ -838,7 +838,7 @@ def help():
     helpMessage += "│┃ " + "├──────────────\n"
     helpMessage += "│┃ " + "╰──⍟ ᴛᴇᴀᴍ ʙᴏᴛ ᴘʀᴏᴛᴇᴄᴛ ⍟─────────\n"
     helpMessage += "╰━━━━━━━━━━━━━━━━"
-    helpMessage += " Creator: https://line.me/ti/p/~teambotprotect \n"
+    helpMessage += " Creator: https://line.me/ti/p/~mai06555mai \n"
     return helpMessage
 
 def helpbot():
@@ -847,15 +847,15 @@ def helpbot():
     key = key.title()
     helpMessage2 = "╭━━━━━━━━━━━━━━━━\n"
     helpMessage2 += "│┃ " + "╭───⍟ᴛᴇᴀᴍ ʙᴏᴛ ᴘʀᴏᴛᴇᴄᴛ⍟─\n"
-    helpMessage2 += "│┃" + " ├───༼ᴄᴏᴍᴍᴀɴᴅ ᴋɪᴄᴋᴇʀ༽────────────\n"
+    helpMessage2 += "│┃" + " ├───ᴄᴏᴍᴍᴀɴᴅ ᴋɪᴄᴋᴇʀ────────────\n"
     helpMessage2 += "│┃" + " ├──────────────\n"
-    helpMessage2 += "│╠❂➣ %i. " % num + key + "ᴋɪᴄᴋᴇʀ @\n"
+    helpMessage2 += "│╠❂➣ %i. " % num + key + "gk @\n"
     num = (num+1)
-    helpMessage2 += "│╠❂➣ %i. " % num + key + "ᴠᴄ @ \n"
+    helpMessage2 += "│╠❂➣ %i. " % num + key + "ᴠk @ \n"
     num = (num+1)
-    helpMessage2 += "│╠❂➣ %i. " % num + key + "ᴍᴀɪɴᴋᴀɴ @\n"
+    helpMessage2 += "│╠❂➣ %i. " % num + key + "ᴍᴀɪ @\n"
     num = (num+1)
-    helpMessage2 += "│╠❂➣ %i. " % num + key + "ɪɴᴠɪᴛᴇ \n"
+    helpMessage2 += "│╠❂➣ %i. " % num + key + "ดึง \n"
     num = (num+1)
     helpMessage2 += "│╠❂➣ %i. " % num + key + "ʙʟ \n"
     num = (num+1)
@@ -943,9 +943,9 @@ def helpbot():
     num = (num+1)
     helpMessage2 += "│╠❂➣ %i. " % num + key + "ʟᴇᴀᴠᴇɢʀᴜᴘ「ɴᴏ」\n"
     num = (num+1)    
-    helpMessage2 += "│╠❂➣ %i. " % num + key + "ᴋɪᴄᴋᴇʀ「ɪɴ」\n"
+    helpMessage2 += "│╠❂➣ %i. " % num + key + "ghost in\n"
     num = (num+1)  
-    helpMessage2 += "│╠❂➣ %i. " % num + key + "ᴋɪᴄᴋᴇʀ「ʟᴠ」\n"
+    helpMessage2 += "│╠❂➣ %i. " % num + key + "ghost out\n"
     num = (num+1)    
     helpMessage2 += "│╠❂➣ %i. " % num + key + "ɪɴғᴏɢʀᴜᴘ「ɴᴏ」\n"
     num = (num+1)
@@ -970,7 +970,7 @@ def helpbot():
     helpMessage2 += "│┃ " + "├──────────────\n"
     helpMessage2 += "│┃ " + "╰──⍟ ᴛᴇᴀᴍ ʙᴏᴛ ᴘʀᴏᴛᴇᴄᴛ ⍟────────\n"
     helpMessage2 += "╰━━━━━━━━━━━━━━━━"
-    helpMessage2 += " My ID LINE : 〘 https://line.me/ti/p/~teambotprotect 〙\n"
+    helpMessage2 += " My ID LINE : 〘 https://line.me/ti/p/~mai06555mai 〙\n"
     return helpMessage2
 
 def bot(op):
@@ -3985,8 +3985,8 @@ def bot(op):
                      try:
                          mat = msg.contentMetadata["postEndUrl"].split('userMid=')[1].split('&postId=')
                          cl.likePost(mat[0], mat[1], 1003)
-                         cl.createComment(mat[0], mat[1], "ᴀᴜᴛᴏʟɪᴋᴇ ʙʏ: \n\n\n\n™S̶̭̗̞̙̿͑̽̆̃̒į̷̙̝̦̤̜̗́̉ͅl̸̛͓͋͋͆̍ę̶͇̮̦̣̖̙̘̪̉n̸͍̦͉̖̟͚̗̣̍̓̽̅̚ť̴̙͋ ̷̨̳̠͎̮̘͇̀̅̀͒̈́͊̕͝T̸̡̯̗̩̺͉̑́͛̌̒ͅé̶̡̱̯̮̯̊̏́̀̃͜a̴̭͓̫͚̐́̂̍̂̊̋̚m̸̨̨̹͎͍̳̥͆̓͗̿͐͗͑̿̓͠ ̴̠͐̂B̷̛̳͎̫̻̫̯̣͓̲͋̀͋̋͊̈͗͑o̵̲̾̈́͒͗t̴̢͍̫̰̠̞͖͍̬̑̊̽͒́̈́͗ͅ\n\n\n\nᴄʀᴇᴀᴛᴏʀ:\nhttp://line.me/ti/p/~teambotprotect\nɢɪᴛhᴜʙ:\ngithub.com/dhenza1415\nchanel ʏᴏᴜᴛᴜʙᴇ:\nhttps://youtu.be/CRqXKcTl6IY\n\nnew ᴄʜᴀɴᴇʟ:\nhttps://youtu.be/6UGH_4gG9qk")
-                         cl.sendReplyMessage(msg.id, to, "➥[TEAM BOT PROTECT LIKE]\nSucsess..👍\nCek Timeline👌\n\nᴄʀᴇᴀᴛᴏʀ:\nhttp://line.me/ti/p/~teambotprotect\nɢɪᴛhᴜʙ:\ngithub.com/dhenza1415\nchanel ʏᴏᴜᴛᴜʙᴇ:\nhttps://youtu.be/CRqXKcTl6IY\n\nnew ᴄʜᴀɴᴇʟ:\nhttps://youtu.be/6UGH_4gG9qk")
+                         cl.createComment(mat[0], mat[1], "ᴀᴜᴛᴏʟɪᴋᴇ ʙʏ:mai")
+                         cl.sendReplyMessage(msg.id, to, "➥[TEAM BOT PROTECT LIKE]")
                      except Exception as e:
                          cl.sendMessage(msg.to, str(e))               
 #===================================================================================================           
@@ -4641,12 +4641,12 @@ def bot(op):
                                helpMessage2 = helpbot()
                                cl.sendMessage(msg.to, str(helpMessage2))
 
-                        elif cmd == "protect":
+                        elif cmd == "set":
                           if wait["selfbot"] == True:
                             if msg._from in owner or msg._from in admin:
                                 tz = pytz.timezone("Asia/Jakarta")
                                 timeNow = datetime.now(tz=tz)                                
-                                md = "│╔══[ TΣΔM βΩT PRΩTΣCTsᴋ ] \n"                                
+                                md = "│╔══[ PRΩTΣCT ] \n"                                
                                 if wait["sticker"] == True: md+="│╠══[  ON  ] sᴛɪᴄᴋᴇʀ✔️\n"
                                 else: md+="│╠══[ OFF ] sᴛɪᴄᴋᴇʀ❌\n"
                                 if wait["contact"] == True: md+="│╠══[  ON  ] ᴄᴏɴᴛᴀᴄᴛ✔️\n"
@@ -4679,7 +4679,7 @@ def bot(op):
                                 else: md+="│╠══[ OFF ] ᴊs❌\n"                                
                                 if msg.to in protectcancel: md+="│╠══[  ON  ] ᴘʀᴏᴛᴇᴄᴛᴄᴀɴᴄᴇʟ✔️\n"
                                 else: md+="│╠══[ OFF ] ᴘʀᴏᴛᴇᴄᴛᴄᴀɴᴄᴇʟ❌\n"
-                                md+= "│╚══[ TΣΔM βΩT PRΩTΣCTsᴋ ]"
+                                md+= "│╚══[ PRΩTΣCT ]"
                                 cl.sendMessage(msg.to, md+"\n│ᴛᴀɴɢɢᴀʟ : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\n│ᴊᴀᴍ  "+ datetime.strftime(timeNow,'%H:%M:%S')+" ")   
                                                                  
                         elif cmd == "creator" or text.lower() == 'creator':
@@ -4696,7 +4696,7 @@ def bot(op):
                                sendMention(msg.to, sender, "ᴍʏ ᴄʀᴇᴀᴛᴏʀ\n\n")
                                cl.sendMessage(msg.to, None, contentMetadata={'mid': mid}, contentType=13)
 
-                        elif cmd == "me" or text.lower() == 'me':
+                        elif cmd == "me" or text.lower() == 'มี':
                           if wait["selfbot"] == True:
                             if msg._from in owner or msg._from in admin or msg._from in staff:                                           
                                 msg.contentType = 13
@@ -4933,11 +4933,11 @@ def bot(op):
                               k9.sendMessage(msg.to,Imid)   
                               k10.sendMessage(msg.to,Jmid)          
 
-                        elif cmd == "speedbot" or cmd == "spbot":
+                        elif cmd == "speedbot" or cmd == "spb":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                start = time.time()
-                               cl.sendMessage(to, "Kecepatan Maksimal bot protect🏁")
+                               cl.sendMessage(to, "bot protect🏁")
                                elapsed_time = time.time() - start
                                cl.sendMessage(msg.to, "[ %s Seconds ] [ " % (elapsed_time) + str(int(round((time.time() - start) * 1000)))+" ms ]")
                                elapsed_time = time.time() - start
@@ -5378,7 +5378,7 @@ def bot(op):
                                 g2.updateProfile(profile)
                                 g2.sendMessage(msg.to,"Nama diganti jadi " + string + "")                    
 #===========BOT UPDATE============#
-                        elif cmd == "mention" or text.lower() == 'tes':
+                        elif cmd == "t" or text.lower() == 'แทค':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                group = cl.getGroup(msg.to)
@@ -5532,7 +5532,7 @@ def bot(op):
                                     mc += str(c) + ". " +cl.getContact(m_id).displayName + "\n"
                                 cl.sendMessage(msg.to,"🔰ᴀᴅᴍɪɴʟɪsᴛ🔰\n\n🔰ᴏᴡɴᴇʀ\n"+ma+"\n🔰ᴀᴅᴍɪɴ\n"+mb+"\n🔰sᴛᴀғғ:\n"+mc+"\n%s 🔰ᴀᴅᴍɪɴʟɪsᴛ🔰" %(str(len(owner)+len(admin)+len(staff))))
 
-                        elif cmd == "protectlist":
+                        elif cmd == "set2":
                           if wait["selfbot"] == True:
                             if msg._from in owner or msg._from in admin:
                                 ma = ""
@@ -5586,7 +5586,7 @@ def bot(op):
                                     mg += str(g) + ". " +cl.getGroup(group).name + "\n"
                                 cl.sendMessage(msg.to,"⛎ᴅᴀғᴛᴀʀ ʟɪsᴛ ᴘʀᴏᴛᴇᴄᴛ Sɪʟᴇɴᴛᵏᶦˡˡᵉʳ⛎\n\n🔒ᴘʀᴏᴛᴇᴄᴛ ǫʀ:\n"+ma+"\n🔒ᴘʀᴏᴛᴇᴄᴛ ɪɴᴠɪᴛᴇ:\n"+mb+"\n🔒ᴘʀᴏᴛᴇᴄᴛᴀɴᴛɪᴋɪᴄᴋᴇʀ:\n"+mc+"\n🔒ᴘʀᴏᴛᴇᴄᴛᴋɪᴄᴋ:\n"+md+"\n🔒ᴘʀᴏᴛᴇᴄᴛᴄᴀɴᴄᴇʟ:\n"+me+"\n🔒ᴘʀᴏᴛᴇᴄᴛᴊᴏɪɴ:\n"+mf+"\n🔒ɢʜᴏsᴛ:\n"+mg+"\n\n⛎ᴘʀᴏᴛᴇᴄᴛ ʟɪsᴛ %s ɢʀᴏᴜᴘ ᴘʀᴏᴛᴇᴄᴛ⛎" %(str(len(protectqr)+len(protectinvite)+len(protectantijs)+len(protectcancel)+len(protectkick)+len(protectjoin)+len(ghost))))
                                 
-                        elif cmd == "skname":
+                        elif cmd == "บอท":
                           if wait["selfbot"] == True:
                             if msg._from in owner or msg._from in admin or msg._from in staff:
                                 k1.sendMessage(msg.to,responsename1)
@@ -5601,7 +5601,7 @@ def bot(op):
                                 k10.sendMessage(msg.to,responsename10)
                                 
                                              
-                        elif cmd == "masuk":
+                        elif cmd == "in":
                          if msg._from in admin:
                            if msg.toType == 2:
                                group = cl.getGroup(to)
@@ -5630,7 +5630,7 @@ def bot(op):
                                k10.acceptGroupInvitationByTicket(to,format(str(ticket)))
                                time.sleep(0.01)                               
                         
-                        elif cmd == "invitebot":
+                        elif cmd == "ดึงบอท":
                           if wait["selfbot"] == True:
                             if msg._from in creator or msg._from in owner or msg._from in admin:
                                 try:
@@ -5649,19 +5649,19 @@ def bot(op):
                                 except:
                                     pass       
                                
-                        elif cmd == "name":
+                        elif cmd == "b":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
-                               k1.sendMessage(msg.to, "۞❂✪₷ιlΣNƬ ₭ιll₠₹ ⋮➲➤")
-                               k2.sendMessage(msg.to, "۞❂✪₷ιlΣNƬ ₭ιll₠₹ ⋮➲➤")
-                               k3.sendMessage(msg.to, "۞❂✪₷ιlΣNƬ ₭ιll₠₹ ⋮➲➤")
-                               k4.sendMessage(msg.to, "۞❂✪₷ιlΣNƬ ₭ιll₠₹ ⋮➲➤")
-                               k5.sendMessage(msg.to, "۞❂✪₷ιlΣNƬ ₭ιll₠₹ ⋮➲➤")
-                               k6.sendMessage(msg.to, "۞❂✪₷ιlΣNƬ ₭ιll₠₹ ⋮➲➤")
-                               k7.sendMessage(msg.to, "۞❂✪₷ιlΣNƬ ₭ιll₠₹ ⋮➲➤")
-                               k8.sendMessage(msg.to, "۞❂✪₷ιlΣNƬ ₭ιll₠₹ ⋮➲➤")
-                               k9.sendMessage(msg.to, "۞❂✪₷ιlΣNƬ ₭ιll₠₹ ⋮➲➤")
-                               k10.sendMessage(msg.to, "۞❂✪₷ιlΣNƬ ₭ιll₠₹ ⋮➲➤")
+                               k1.sendMessage(msg.to, "อยู๋ค่ะเจ้านาย ⋮➲➤")
+                               k2.sendMessage(msg.to, "อยู๋ค่ะเจ้านาย ⋮➲➤")
+                               k3.sendMessage(msg.to, "อยู๋ค่ะเจ้านาย ⋮➲➤")
+                               k4.sendMessage(msg.to, "อยู๋ค่ะเจ้านาย ⋮➲➤")
+                               k5.sendMessage(msg.to, "อยู๋ค่ะเจ้านาย ⋮➲➤")
+                               k6.sendMessage(msg.to, "อยู๋ค่ะเจ้านาย ⋮➲➤")
+                               k7.sendMessage(msg.to, "อยู๋ค่ะเจ้านาย ⋮➲➤")
+                               k8.sendMessage(msg.to, "อยู๋ค่ะเจ้านาย ⋮➲➤")
+                               k9.sendMessage(msg.to, "อยู๋ค่ะเจ้านาย ⋮➲➤")
+                               k10.sendMessage(msg.to, "อยู๋ค่ะเจ้านาย ⋮➲➤")
                                                        
                         elif cmd == "bye1":
                           if wait["selfbot"] == True:
@@ -5746,7 +5746,7 @@ def bot(op):
                                g2.acceptGroupInvitationByTicket(to,format(str(ticket)))
                                time.sleep(0.01)
                                
-                        elif cmd == "ghost lv":
+                        elif cmd == "ghost out":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
@@ -5761,7 +5761,7 @@ def bot(op):
                                 cl.sendMessage(msg.to, "Makasih sudah invit\nketemu lain waktu... "+str(G.name))
                                 cl.leaveGroup(msg.to)
                                 
-                        elif cmd == "pulang":
+                        elif cmd == "out":
                            if wait["selfbot"] == True:
                             if msg._from in admin:
                                k1.leaveGroup(msg.to)
@@ -5877,7 +5877,7 @@ def bot(op):
                                start = time.time()                               
                                cl.sendMessage(msg.to, "proтecт ѕpeed....")                               
                                elapsed_time = time.time() - start
-                               cl.sendMessage(msg.to, "waĸтυ:\n{}".format(str(elapsed_time)))
+                               cl.sendMessage(msg.to, "ความเร็ว:\n{}".format(str(elapsed_time)))
                                
                         elif cmd == "lurk:on":
                           if wait["selfbot"] == True:
@@ -6691,7 +6691,7 @@ def bot(op):
                                          msgs += "\nSemua protection dimatikan"
                                     cl.sendMessage(msg.to, "「 Status Protection 」\n" + msgs)       
 #===========KICKOUT============#       
-                        elif ("Kicker " in msg.text):
+                        elif ("vk " in msg.text):
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                key = eval(msg.contentMetadata["MENTION"])
@@ -6706,7 +6706,7 @@ def bot(op):
                                        except:
                                            pass
                                            
-                        elif ("Vc " in msg.text):
+                        elif ("gk " in msg.text):
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                key = eval(msg.contentMetadata["MENTION"])
@@ -6849,7 +6849,7 @@ def bot(op):
                                          else:
                                                 cl.kickoutFromGroup(i, [jj])
                                                 
-                        elif "Mainkan " in msg.text:
+                        elif "Mai " in msg.text:
                            if msg._from in admin:
                               key = eval(msg.contentMetadata["MENTION"])
                               key["MENTIONEES"][0]["M"]                                                                                                                                
@@ -6887,7 +6887,7 @@ def bot(op):
                                   except:
                                       pass
                                       
-                        elif "Invite " in msg.text:
+                        elif "ดึง " in msg.text:
                             if msg._from in admin:                                                                                                                                       
                                key = eval(msg.contentMetadata["MENTION"])
                                key["MENTIONEES"][0]["M"]                                                                                                                                
@@ -7458,7 +7458,7 @@ def bot(op):
                             if msg._from in admin:
                                cl.sendMessage(msg.to, "「Sider Msg」\nSider Msg mu :\n\n「 " + str(wait["mention"]) + " 」")
                         
-                        elif cmd == "batre":
+                        elif cmd == "ck":
                             if msg._from in admin or msg._from in owner:
                                try:cl.inviteIntoGroup(to, [mid]);has = "OK"
                                except:has = "NOT"
