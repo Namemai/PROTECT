@@ -318,11 +318,9 @@ myProfile["pictureStatus"] = dzProfile.pictureStatus
     
 imagesOpen = codecs.open("image.json","r","utf-8")
 videosOpen = codecs.open("video.json","r","utf-8")
-stickersOpen = codecs.open("sticker.json","r","utf-8")
 audiosOpen = codecs.open("audio.json","r","utf-8")
 images = json.load(imagesOpen)
 videos = json.load(videosOpen)
-stickers = json.load(stickersOpen)
 audios = json.load(audiosOpen)
 
 mulai = time.time()
