@@ -58,7 +58,7 @@ print("""\033["""+str(randint(0,1))+""";"""+str(randint(31,36))+"""m[ %s Asist10
 g1 = LINE("")
 print("""\033["""+str(randint(0,1))+""";"""+str(randint(31,36))+"""m[ %s Kicker1 Login ]\033[0m"""%(Bot_startTime))
 
-g2 = LINE("")
+g2 = LINE('EPvzSEqjymbeEgllC6n2.sg9Izcl+/YM4kMsM/KGxuG.dQYi4djtlcjyI4vSBCT4C40XHHpcqjWmA22rqdBhHag=')
 print("""\033["""+str(randint(0,1))+""";"""+str(randint(31,36))+"""m[ %s Kicker2 Login ]\033[0m"""%(Bot_startTime))
 #==========================[[PAKE TOKEN CHROMEOS 2.1.5]]=========================
 print("""\033["""+str(randint(0,1))+""";"""+str(randint(31,36))+"""m
